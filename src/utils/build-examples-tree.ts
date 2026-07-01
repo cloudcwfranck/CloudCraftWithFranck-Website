@@ -1,4 +1,4 @@
-import { children } from 'cheerio/lib/api/traversing'
+import * as cheerio from 'cheerio'
 import { Example } from 'contentlayer/generated'
 import { TreeNode } from 'types/TreeNode'
 
