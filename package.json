@@ -16,7 +16,7 @@
     "@radix-ui/react-tooltip": "^0.1.7",
     "@stackblitz/sdk": "^1.7.0-alpha.3",
     "@tailwindcss/typography": "^0.5.2",
-    "cheerio": "^1.0.0-rc.10",
+    "cheerio": "1.0.0-rc.12",
     "classnames": "^2.3.1",
     "contentlayer-source-notion": "^0.0.1-alpha.26",
     "date-fns": "^2.28.0",
@@ -61,6 +61,10 @@
   },
   "packageManager": "yarn@3.2.0",
   "resolutions": {
-    "@stackblitz/sdk@1.7.0": "patch:@stackblitz/sdk@npm:1.7.0-alpha.3#.yarn/patches/@stackblitz-sdk-npm-1.7.0-alpha.3-1f8676ad43.patch"
+    "@stackblitz/sdk@1.7.0": "patch:@stackblitz/sdk@npm:1.7.0-alpha.3#.yarn/patches/@stackblitz-sdk-npm-1.7.0-alpha.3-1f8676ad43.patch",
+    "protobufjs": "7.5.5"
+  },
+  "overrides": {
+    "protobufjs": "7.5.5"
   }
 }
